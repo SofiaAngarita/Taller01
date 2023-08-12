@@ -20,4 +20,9 @@ while continuar:
   if opcion in ["1", "2", "3", "4"]:
     # Pedir al usuario que ingrese dos números
     num1 = float(input("Ingrese el primer número: "))
-    num2 = float(input("Ingrese el segundo número: "))
+    num2 = float(input("Ingrese el segundo número: ")) 
+  if opcion == "1":
+# Sumar los números
+    resultado = num1 + num2
+# Mostrar el resultado
+print(f"La suma de {num1} y {num2} es {resultado}")
