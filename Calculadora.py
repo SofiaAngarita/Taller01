@@ -5,7 +5,6 @@ def mostrar_menu():
   print("2. Restar dos números")
   print("3. Multiplicar dos números")
   print("4. Dividir dos números")
-  print("5. Salir del programa")
 
   # Definir una variable para controlar el bucle
 continuar = True
@@ -49,4 +48,5 @@ while continuar:
       resultado = num1 / num2
 # Mostrar el resultado
       print(f"La división de {num1} y {num2} es {resultado}")
-      
+
+#Gracias por su atencion
