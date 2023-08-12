@@ -32,3 +32,10 @@ while continuar:
     resultado = num1 - num2
 # Mostrar el resultado
     print(f"La resta de {num1} y {num2} es {resultado}")
+
+  elif opcion == "3":
+# Multiplicar los números
+    resultado = num1 * num2
+# Mostrar el resultado
+    print(f"La multiplicación de {num1} y {num2} es {resultado}")
+    
