@@ -38,4 +38,15 @@ while continuar:
     resultado = num1 * num2
 # Mostrar el resultado
     print(f"La multiplicación de {num1} y {num2} es {resultado}")
-    
+  else:
+# Dividir los números
+# Verificar si el segundo número es cero
+    if num2 == 0:
+# Mostrar un mensaje de error
+      print("No se puede dividir por cero")
+    else:
+# Calcular el resultado
+      resultado = num1 / num2
+# Mostrar el resultado
+      print(f"La división de {num1} y {num2} es {resultado}")
+      
