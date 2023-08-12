@@ -25,4 +25,10 @@ while continuar:
 # Sumar los números
     resultado = num1 + num2
 # Mostrar el resultado
-print(f"La suma de {num1} y {num2} es {resultado}")
+    print(f"La suma de {num1} y {num2} es {resultado}")
+
+  elif opcion == "2":
+# Restar los números
+    resultado = num1 - num2
+# Mostrar el resultado
+    print(f"La resta de {num1} y {num2} es {resultado}")
